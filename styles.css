@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+min-height: 100vh;
+width: 100%;
+background: url(https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+.main{
+    width: 77%;
+    min-height: 100vh;
+    border: 0.95px;
+    border-style: dotted;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon{
+width: 10px;
+height: 10px;
+
+margin-left: 30px;
+margin-top: 50px;
+
+}
+.backgroundimg{
+
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.backgroundimg h2{
+    padding-bottom: 20px;
+    color: darkviolet;
+    text-align: center;
+}
+.backgroundimg h1{
+    color: darkviolet;
+    font-size: 60px;
+}
+.headercont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 1em;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.fa-xmark{
+    visibility: hidden;
+}
+.fa-bars{
+    visibility: hidden;
+}
+
+@media (max-width:800px) {
+
+.main{
+    position: relative;
+}
+    nav ul{
+        display: block;
+        background-color: whitesmoke;
+        position: absolute;
+        right: 0;
+        width: 60%;
+        bottom: 0;
+        height: 100vh;
+        transform: scaleX(0);
+        
+    }
+    nav ul li{
+        
+        display: flex;
+        padding-top: 4em;
+        align-items: center;
+        justify-content: center;
+    }
+    .fa-xmark{
+        font-size: 23px;
+        margin-left: 1em;
+        margin-top: 1em;
+        visibility: visible;
+    }
+    nav ul.menu{
+        transform: scaleX(1);
+    }
+    .fa-bars{
+        visibility: visible;
+    }
+    .backgroundimg h1{
+        font-size: 40px;
+    }
+
+
+
+
+
+    
+}
+
+
+.words{
+
+
+
+    width: 64%;
+    height: 200px;
+    margin-left: 150px;
+    border: 0.95px;
+    border-style: solid;
+    margin-top: 5px;
+}
+.wordss{
+
+    width: 64%;
+    height: 70px;
+    
+    
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+
+
+ul li:hover{
+
+color: rgb(144, 96, 37);
+transition: 0.5s;
+
+}
+.two{
+
+min-height: 1000px;
+width: 100%;
+text-align: center;
+
+}
+.imageone{
+
+width: 350px;
+height: 350px;
+background: url(https://i0.wp.com/head-turners.co.uk/shampoo/wp-content/uploads/2020/05/head-turners-home-page-01-copy.jpg?w=800&ssl=1);
+background-position: center;
+background-size: cover;
+margin-left: 50px;
+margin-top: 30px;
+
+}
+.imagetwo{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+margin-top: 30px;
+
+background: url(https://hatfield.welhat.gov.uk/image/16544/American-Top-Nails/thumbnail.jpg?m=637273847863130000);
+background-position: center;
+background-size: cover;
+
+}
+.imagethree{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+margin-top: 30px;
+background: url(https://static.toiimg.com/thumb/msid-76729422,imgsize-256289,width-400,resizemode-4/76729422.jpg);
+background-position: center;
+background-size: cover;
+}
+.container{
+
+   min-height: 550px;
+
+    border: 0.95px blue;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 55px;
+
+}
+.two p{
+    font-size: 50px;color: darkviolet;
+}
+.final{
+width: 77%;
+height: 90px;
+border: 0.95px;
+border-style: dotted;
+margin-left: 55px;
+margin-top: 25px;
+background-color: mediumvioletred;
+
+}
